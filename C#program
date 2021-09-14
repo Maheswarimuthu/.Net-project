@@ -1,1 +1,11 @@
-
+class Program
+    {
+        static void Main(string[] args)
+        {
+            float result;
+            string s = "0.12";
+            result = float.Parse(s);
+            Console.WriteLine("Result{0}", result);
+            Console.ReadLine();
+        }
+    }
