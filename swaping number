@@ -1,0 +1,17 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b;
+            Console.WriteLine("Enter value for a");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter value for b");
+            b = Convert.ToInt32(Console.ReadLine());
+            a = b - a;
+            b = b - a;
+            a = a + b;
+            Console.WriteLine("value of a after swapping=" + a);
+            Console.WriteLine("value of b after swapping=" + b);
+            Console.ReadKey();
+        }
+    }
