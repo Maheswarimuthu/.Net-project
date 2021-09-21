@@ -1,0 +1,15 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("please provide factorial number");
+            int factnumber = Int32.Parse(Console.ReadLine());
+
+            int factResult = 1;
+            for (int i = 1; i <= factnumber; i++)
+            {
+                factResult = factnumber * i;
+            }
+            Console.WriteLine("{0}! is {1}", factnumber, factResult);
+            Console.ReadLine();
+        }
